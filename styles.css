@@ -1,0 +1,78 @@
+/* Estilo global para la página */
+body {
+    font-family: 'Courier New', monospace; /* Fuente de código para un look más técnico */
+    background-color: #151515; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Encabezado principal */
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #0f0; /* Verde neón para un efecto de terminal */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+  }
+  
+  /* Secciones y contenido */
+  section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Encabezados de segundo nivel */
+  h2 {
+    color: #f0f; /* Amarillo neón para destacar */
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  /* Listas ordenadas */
+  ol {
+    margin-left: 20px;
+    color: #aaa; /* Gris claro para un efecto de texto desgastado */
+  }
+  
+  /* Lista de métodos */
+  li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 15px;
+  }
+  
+  /* Puntos detrás de cada elemento de la lista */
+  li::after {
+    content: ">"; /* Flecha hacia la derecha para simular una terminal */
+    position: absolute;
+    left: 0;
+    color: #f0f;
+  }
+  
+  /* Párrafos */
+  p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  /* Imagen dentro del contenido */
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 50%; /* Ajusta el tamaño de la imagen */
+    border-radius: 10px;
+    filter: grayscale(1); /* Efecto de escala de grises para un aspecto más retro */
+  }
+  
+  /* Footer con la conclusión */
+  h3 {
+    color: #f0f;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 30px;
+  }
